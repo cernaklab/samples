@@ -10,6 +10,8 @@ Due to file size I was having an issue uploading model.zip to the repository, ev
 
 Instead, here's a google drive link to the file: https://drive.google.com/file/d/1zazFRO8QpfBK_c4uZ3RRpuOwfQASK83R/view?usp=sharing
 
+Or on Zenodo: https://zenodo.org/record/6391613
+
 
 As reported on ChemRxiv: 
 
