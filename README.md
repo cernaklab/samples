@@ -25,8 +25,8 @@ https://chemrxiv.org/engage/chemrxiv/article-details/6236172dd75627dbfb1e0c92
 
 
 
-# Header: Installation
-## subheader: Installation of virtual environment
+# Installation
+## Installation of virtual environment
 
 We first create a virtual environment to avoid dealing with other packages installed in the system:
 
@@ -45,7 +45,7 @@ Upgrade pip if it hasn't been already:
 $ (samples_venv) pip install --upgrade pip
 
 
-## subheader: Installation of dependencies and packages:
+## Installation of dependencies and packages:
 First install jupyter lab:
 (samples_venv) $ pip install jupyterlab
 
@@ -97,7 +97,7 @@ You can test it by:
 (samples_venv) $ >> import magenta
 
 
-## subheader: Setting up the system:
+## Setting up the system:
 (samples_venv) $ cd ..
 (samples_venv) $ mkdir test
 (samples_venv) $ mkdir wav
@@ -122,9 +122,9 @@ $ yay -Ss soundfont-fatboy
 Alternatively you can directly download the soundfont here:
 curl -O -L 'https://web.archive.org/web/20220124174052/https://dl.fatboy.site/FatBoy-latest.7z'
 
-# header: Explanation of the script:
+# Explanation of the script:
 
-## subheader: First part of the script:
+## First part of the script:
 
 After importing the necessary python packages, there are two main functions:
 
@@ -159,7 +159,7 @@ fluidsynth -ni FatBoy-v0.790.sf2 test/9.mid -F wav/9.wav -r 44100
 if downloaded directly into the working directory
 
 
-## subheader: Third part of the script:
+## Third part of the script:
 Running the MusicVAE functions.
 
 Ensure the model checkpoint path is correctly pointing to the right directory. 
@@ -178,7 +178,7 @@ Run the second block of code to return "interpolated" molecules and generate a p
 
 
 
-## subheader: Fourth part of the script:
+## Fourth part of the script:
 General informatics as shown in the paper.
 
 The first figure shows a bar chart that reflects the distribution of molecules and the key in which they are encoded in.
@@ -201,5 +201,5 @@ In this particular instance, the Morgan Fingerprint as provided by RDKit is util
 
 We group each point by its key to allow us to easily color each key in the plot. We reduce the transparency of the first bin (G, the most populous) to improve clarity.
 
-## subheader: Fifth part of the script:
+## Fifth part of the script:
 Finally, this block of code exemplfies how to convert a user generated sequence of MIDI notes into a molecule. The example as shown in the paper is given here.
