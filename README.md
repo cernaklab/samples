@@ -1,7 +1,6 @@
 # samples
 
 You may be able to run this locally if you're able to navigate the dependencies, otherwise it works fine on colab (link below). 
-
 See below for a detailed walk through. Thanks kindly to Reviewer 2 for the push needed to clean up this code.
 
 
@@ -166,6 +165,7 @@ Alternatively you can directly download the soundfont here:
 curl -O -L 'https://web.archive.org/web/20220124174052/https://dl.fatboy.site/FatBoy-latest.7z'
 
 # Explanation of the script:
+This walks through the notebook. Helper functions are in samples_2.py
 
 ## First part of the script:
 
