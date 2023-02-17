@@ -71,12 +71,12 @@ We go to the folder:
 (samples_venv) $ cd magenta
 
 And modify the setup.py commenting out the packages we install manually:
-# 'python-rtmidi == 1.1.2'
-# 'librosa == 0.7.2'
-# 'numba == 0.49.1
+\# 'python-rtmidi == 1.1.2'
+\# 'librosa == 0.7.2'
+\# 'numba == 0.49.1
 
 Comment out tensorflow if it was installed manually earlier:
-# 'tensorflow === 2.9.1'
+\# 'tensorflow === 2.9.1'
 
 
 We now install the magenta package:
